@@ -1,0 +1,16 @@
+algoritmo "3notas"
+
+var
+ n1,n2,n3,s:Real
+inicio
+Escreva("Qual foi sua 1 nota:")
+Leia(n1)
+Escreva("Qual foi sua 2 nota:")
+Leia(n2)
+Escreva("Qual foi sua 3 nota:")
+Leia(n3)
+s <- (n1+n2+n3)/3
+Escreva("A media das usa notas sao de" , s)
+
+
+fimalgoritmo
